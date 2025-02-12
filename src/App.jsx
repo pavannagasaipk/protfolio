@@ -31,6 +31,20 @@ function App() {
             required
             className="w-full p-2 mb-4 rounded bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
+         <input
+            type="tel"
+            name="phoneNumber"
+            placeholder="Enter Phone Number"
+            value={user.phonenumber}
+            onChange={handleChange}
+            required
+            pattern="[0-9]{10}"  // Only allows 10-digit numbers
+            inputMode="numeric"   // Opens numeric keyboard on mobile
+            onInput={(e) => e.target.value = e.target.value.replace(/\D/, '')} // Prevents non-numeric input
+            className="w-full p-2 mb-4 rounded bg-gray-700 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+
+
           <input
             type="email"
             name="email"

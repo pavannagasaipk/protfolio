@@ -112,12 +112,12 @@ export default function Portfolio() {
             whileHover={{ scale: 1.05 }}
           >
             <h3 className="text-xl font-medium">
-              Full-Stack Expense Management System
+              Tic Tac Toe Game
             </h3>
             <p className="text-gray-400 mt-2">
-              Developed a full-stack web application for managing expenses with
-              authentication, CRUD operations, pagination, and data insights.
-              Used modern frontend and backend technologies.
+              Developed an interactive Tic Tac Toe game using HTML, CSS, and JavaScript.
+              Implemented game logic, player turn handling, win/draw detection, and a
+              responsive UI for smooth user experience.
             </p>
           </motion.div>
 
@@ -156,4 +156,5 @@ export default function Portfolio() {
     </motion.div>
   );
 }
+
 

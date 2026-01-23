@@ -148,13 +148,14 @@ export default function Portfolio() {
           Let’s connect and build something amazing 🚀
         </p>
         <div className="flex justify-center gap-6 mt-4">
-          <a href="#" className="text-blue-400 hover:underline">LinkedIn</a>
+          <a href="#" className="https://www.linkedin.com/in/pavannagasai/">LinkedIn</a>
           <a href="#" className="text-blue-400 hover:underline">GitHub</a>
-          <a href="#" className="text-blue-400 hover:underline">Email</a>
+          <a href="#" className="chpnsai@gmail.com">Email</a>
         </div>
       </motion.section>
     </motion.div>
   );
 }
+
 
 
